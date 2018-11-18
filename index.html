@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="This is a search page that can access the API of YouTube">
+    <meta name="keywords" content="Thinkful,YouTube,Search,API,ThinkfulTube">
+    <meta name="author" content="Brian Albert">
+    <title>Thinkful-Tube</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+      <body>
+      <main>
+        <h1>Search videos by name on ThinkfulTube</h1>
+          <form action="#" class="js-search-form">
+            <label for="query"></label>
+            <input type="text" class="js-query">
+            <button type="submit">Search</button>
+          </form>
+          
+          <h2>Results</h2>
+          <div class="js-search-results"></div>
+          <div>
+            <div class="btn-group" role="group" aria-label="Prev and Next buttons">
+              <button type="button" id="pageTokenPrev" value="" class="btn btn-default">Prev</button>
+              <button type="button" id="pageTokenNext" value="" class="btn btn-default">Next</button>
+            </div> 
+          </div>
+      </main>
+      <script src="index.js"></script>
+    </body>
+</html>
