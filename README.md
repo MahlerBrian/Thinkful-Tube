@@ -11,3 +11,7 @@ Form element does not have an implicit (wrapped) <label>
 Form element does not have an explicit <label>
 
 Element has no title attribute or the title attribute is empty
+
+CHANGES:
+-added 'role' and 'aria-live' attributes to <form> element.
+-added 'role' and 'aria-live' attributs and 'hidden' boolean value to the .js-search-results <div>.

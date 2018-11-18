@@ -15,14 +15,14 @@
       <body>
       <main>
         <h1>Search videos by name on ThinkfulTube</h1>
-          <form action="#" class="js-search-form">
+          <form action="#" class="js-search-form" role="main" aria-live="polite"></form>
             <label for="query"></label>
             <input type="text" class="js-query">
             <button type="submit">Search</button>
           </form>
           
           <h2>Results</h2>
-          <div class="js-search-results"></div>
+          <div role="main" class="js-search-results" aria-live="assertive" hidden></div>
           <div>
             <div class="btn-group" role="group" aria-label="Prev and Next buttons">
               <button type="button" id="pageTokenPrev" value="" class="btn btn-default">Prev</button>
